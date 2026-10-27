@@ -13,7 +13,7 @@ def cadastrarProduto():
 
     produtos.append(produto)
     
-def adicionarEstoque():
+    def adicionarEstoque():
     codigo = int(input("Digite o código do produto: "))
 
     for produto in produtos:
